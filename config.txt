@@ -1,0 +1,83 @@
+;#######################  TeamBlackBerry Telemux  #########################
+
+
+
+[GENERAL]
+
+; token - This is bot auth token, necessary to connect bot to Telegram sevice.
+token=6897263718:AAGPc0tiT8kfTjNKwFm6RXqfhyFvPJxbBKk
+
+
+; password - New users will need to use it in order to access to the service.
+; Logged users ID will be stored in users.txt. If there are users stored and
+; you want to change the password, you MUST delete users.txt file or its
+; content.
+password=arman
+
+
+[FILES]
+
+; shared_folder - Absolute path to file sharing folder (ending with slash).
+; All sent files will be stored here, don't choose a root-protected directory.
+; Example: shared_folder=/data/data/com.termux/files/home
+shared_folder=/data/data/com.termux/files/home
+
+
+; users_file - Absolute path to users.txt. This file content is allowed users.
+; It will be checked on every command the bot recieves. Users ID will be
+; hashed and stored in order to preserve anonymity.
+; Example: users_file=/data/data/com.termux/files/home/users.txt
+users_file=/data/data/com.termux/files/home/TbbCloneKing/users.txt
+
+
+; log_file - Absolute path to log.txt. This file registers user's ID and input
+; besides the date and time.
+; Example: log_file=/data/data/com.termux/files/home/log.txt
+log_file=/data/data/com.termux/files/home/TbbCloneKing/log.txt
+
+
+; log_limit - Number of stored lines on log.txt.
+log_limit=500
+
+
+[PERMISSIONS]
+
+; enable_root - Allow root access. If you want to enable root access,
+; make sure you choose a strong password, since logged users will have total
+; control of the computer. Change it to "True" (without quotes) to enable it.
+enable_root=True
+
+
+[USAGE]
+
+; forbidden_commands - List of unavaliable commands. Add here commands that
+; throw errors, unexpected behaviour, etc...
+forbidden_commands=["clear","dc","ex","exit",
+                    "expand","htop","man","poweroff","raspi-config",
+                    "reboot","scp","shutdown","ssh","vi","vim","wait",
+                    "watch", "wc"
+                    ]
+
+
+; update_command - Command used to update system (it depends on your Linux
+; distro).
+; Example: update_command=apt-get update
+update_command=apt-get update
+
+
+; upgrade_command - Command used to upgrade system (it depends on your Linux
+; distro).
+; Example: upgrade_command=apt-get upgrade
+upgrade_command=apt-get upgrade
+
+
+; install_command - Command used to install packages (it depends on your Linux
+; distro).
+; Example: install_command=apt-get install
+install_command=apt-get install
+
+
+; uninstall_command - Command used to remove packages (it depends on your
+; Linux distro).
+; Example: uninstall_command=apt-get --purge remove
+uninstall_command=apt-get --purge remove

